@@ -1,0 +1,96 @@
+body {
+  background-image: url(https://img.freepik.com/vetores-premium/doodle-de-papelaria-de-arte-de-linha-azul-padrao-sem-costura-de-vetor-escolar-estudo-de-fundo-de-educacao_193606-578.jpg);
+}
+
+* {
+  font-family: Arial;
+  color: white;
+}
+
+.container {
+  margin: 50px auto auto auto;
+  text-align: center;
+  width: 500px;
+  background-color: rgb(112, 112, 112);
+  padding: 20px 15px;
+  border-radius: 10px;
+  opacity: 95%;
+
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 20px;
+  font-size: 22px;
+  align-items: center;
+
+}
+
+.formulario div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 20px;
+
+}
+
+.formulario div label {
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+input {
+  color: black;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+  width: 350px;
+  height: 25px;
+
+}
+
+.resposta_mensagem {
+  width: 450px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+
+}
+
+.resposta_mensagem p {
+  color: black;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.mensagem {
+  text-align: center;
+  padding: 0 10px;
+  color: black;
+}
+
+.btn_action {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.criadores {
+  margin: 20px auto;
+  width: 450px;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
